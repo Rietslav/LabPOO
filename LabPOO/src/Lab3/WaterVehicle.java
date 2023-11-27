@@ -1,8 +1,11 @@
 package Lab3;
 
 public class WaterVehicle extends Vehicle {
-
-    public void floats() {
-        System.out.println("Floats to sea.");
+    @Override
+    public void start() {
+        System.out.println("WaterVehicle is starting...");
+    }
+    public void floatWater() {
+        System.out.println("Floating on water.");
     }
 }

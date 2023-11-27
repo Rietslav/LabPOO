@@ -1,9 +1,11 @@
 package Lab3;
 
 public class GroundVehicle extends Vehicle {
-
-    public void rider() {
-        System.out.println("Ride to ground.");
+    @Override
+    public void start() {
+        System.out.println("GroundVehicle is starting.");
     }
-
+    public void drive() {
+        System.out.println("Driving on the ground.");
+    }
 }
